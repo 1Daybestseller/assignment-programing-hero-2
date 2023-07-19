@@ -117,10 +117,36 @@ padding: 5px;
     width: 500px;
     border: 3px red solid;
 }
+/* we-are-gamer-container  */
+.we-are-gamer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 7rem;
+    
+}
+.gamer-text{
+    text-align: right;
+}
 
 
+.shining-text{
+    font-size: 48px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-text>p{
+    margin-top: 20px;
+}
 
-
+#span{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+}
 
 /* responsive section  */
 
@@ -141,7 +167,7 @@ padding: 5px;
     align-content: center;
     /* margin: auto; */
 }
-.big-goat-image{
+ .gamer-pic,.big-goat-image{
     width: 300px;
     margin: 50px auto;
 }
@@ -149,6 +175,17 @@ padding: 5px;
     margin-left: 20px;
 }
 
+/* .we-are-gamer-container  */
+.we-are-gamer-container{
+    flex-direction: column;
+
+}
+.gamer-text{
+    text-align: center;
+    border: 2px solid red;
+    width: 350px;
+    
+}
 
 
 }
