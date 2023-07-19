@@ -6,11 +6,26 @@
     font-size: 18px;
     font-weight: 400;
 }
+.btn-primary{
+    /* display: inline-flex; */
+    padding: 21px 40px;
+    /* align-items: flex-start; */
+    gap: 10px;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
 
+}
   *{
 font-family: 'Work Sans', sans-serif;
 margin: 0;
 
+  }
+  body{
+    margin: auto;
   }
 
   /* nav section  */
@@ -59,6 +74,54 @@ nav ul>li a{
     padding: 10px;
 }
 
+/* goat-container section  */
+
+.goat-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.goat-text-part>h3{
+    color: rgba(11, 2, 35, 1) #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    
+
+}
+.goat-text-part>h1{
+    text-align: center;
+    font-size: 5.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    /* background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%); */
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.goat-text-part>p{
+    color: #534C64;
+
+font-size: 20px;
+font-weight: 500;
+padding: 5px;
+}
+
+#btn-senondary{
+    background: #4EC5F7;
+}
+
+.big-goat-image{
+    width: 500px;
+    border: 3px red solid;
+}
+
+
+
+
+
 /* responsive section  */
 
 /* For mobile   */
@@ -70,4 +133,28 @@ nav ul>li a{
         align-items: center;
         margin: auto;
     }
+
+/* goat-container section  */
+.goat-container{
+    flex-direction: column-reverse;
+    gap: 20px;
+    align-content: center;
+    /* margin: auto; */
+}
+.big-goat-image{
+    width: 300px;
+    margin: 50px auto;
+}
+#btn-senondary{
+    margin-left: 20px;
+}
+
+
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    
+
+
 }
