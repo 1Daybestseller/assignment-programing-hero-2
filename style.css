@@ -189,7 +189,6 @@ padding: 5px;
     justify-content: space-around;
     align-items: center;
     /* border: 2px red solid; */
-    width: 90vw;
     margin: auto;
 
 }
@@ -216,6 +215,8 @@ padding: 5px;
 
 /* button-section  */
 
+
+
 .button-section{
     display: grid;
     grid-template-columns: repeat(5,1fr) ;
@@ -223,6 +224,7 @@ padding: 5px;
     align-items: center;
     width: 80vw;
     margin: 50px auto ;
+    margin-top: -150px;
     text-align: center;
     /* border: 2px red solid; */
 }
@@ -346,24 +348,43 @@ footer{
 /* play  */
 .instantly-container{
     /* flex-direction: column; */
-    display: none;
+    flex-direction: column;
 }
 .hors-img{
     width: 250px;
+    position: static;
 }
 .hi6{
-    position: static;
-    width: 200px;
+    position: relative;
+    width: 150px;
+    bottom: 70px;
+    left: 100px;
 }
-.instant-text-part{
+.instant-text-part>h3{
     font-size: 20px;
+}
+.instant-text-part>p{
+    font-size: 16px;
+    
+}
+
+.instant-text-part{
     text-align: center;
-    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: #F948B2 2px solid;
+    width: 300px;
+    margin-right: 0%;
+    padding: 0%;
+    
+    
 }
 /* .button-section */
 .button-section{
     grid-template-columns: repeat(3,1fr);
     width: auto;
+    margin-top: -50px;
 }
 
 .img-button>img{
@@ -462,6 +483,10 @@ footer{
     width: auto;
 }
 /* .button-section */
+.button-section{
+    margin-top: 10px;
+}
+
 
 /* footer  */
 /* .connectt{
