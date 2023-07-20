@@ -155,7 +155,7 @@ padding: 5px;
 /* Online Games Funny Videos  */
 .online-games-container{
     text-align: center;
-    border: 2px red solid;
+    /* border: 2px red solid; */
     width: 90vw;
     margin: auto;
 }
@@ -183,7 +183,7 @@ padding: 5px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 2px red solid;
+    /* border: 2px red solid; */
     width: 90vw;
     margin: auto;
 
@@ -219,7 +219,7 @@ padding: 5px;
     width: 80vw;
     margin: 50px auto ;
     text-align: center;
-    border: 2px red solid;
+    /* border: 2px red solid; */
 }
 .img-button{
     display: flex;
@@ -247,20 +247,31 @@ footer{
     justify-content: center;
     color: white;
    margin: auto;
-    border: 2px red solid;
+    /* border: 2px red solid; */
     padding-bottom: 50px;
 
+}
+.connectt{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 50px;
+    justify-content: center;
 }
 .connect{
     display: flex;
     justify-content: center;
     margin: 20px auto;
 }
-.connect>li{
+.connectt,.connect>li{
     list-style: none;
     margin: 10px 20px;
     
 }
+.connectt>li>a{
+    text-decoration: none;
+    color: white;
+}
+
 .connect>li>a{
     text-decoration: none;
     color: white;
@@ -297,24 +308,32 @@ footer{
 /* .we-are-gamer-container  */
 .we-are-gamer-container{
     flex-direction: column;
+    justify-content: center;
 
 }
 .gamer-text{
     text-align: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 350px;
+    text-align: center;
     
+}
+
+.gamer-text>p{
+    width: auto;
 }
 /* Online Games Funny Videos   */
 .parent-games-pic{
     flex-direction: column;
     margin: 20px auto ;
     margin-left: 5px;
+    align-items: center;
     
 }
 /* play  */
 .instantly-container{
-    flex-direction: column;
+    /* flex-direction: column; */
+    display: none;
 }
 .hors-img{
     width: 250px;
@@ -322,10 +341,44 @@ footer{
 .hi6{
     position: static;
     width: 200px;
-    
-    
+}
+.instant-text-part{
+    font-size: 20px;
+    text-align: center;
+    width: auto;
+}
+/* .button-section */
+.button-section{
+    grid-template-columns: repeat(3,1fr);
+    width: auto;
 }
 
+.img-button>img{
+    width: 50px;
+
+}
+.img-button{
+    font-size: 8px;
+    
+}
+/* footer  */
+.connectt{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    justify-content: center;
+    font-size: 12px;
+}
+.connect{
+    font-size: 10px;
+}
+}
+footer{
+    margin: auto;
+    text-align: center;
+}
+.logo-container>h2{
+    color: white;
 }
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
