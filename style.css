@@ -170,6 +170,11 @@ padding: 5px;
     border-radius: 16px;
     
 }
+.games-pic>img:hover{
+    filter: brightness(70%);
+    cursor: url();
+    
+}
 .parent-games-pic{
     display: flex;
     justify-content: center;
@@ -235,7 +240,15 @@ padding: 5px;
 .img-button>img{
     margin-right: 10px;
 }
+.img-button:hover{
+    border: 2px solid blue;
+    border-radius: 48px;
+    color: black;
+    cursor: pointer;
+    
+}
 /* footer  */
+
 footer>.logo-container{
     padding-top: 50px;
     justify-content: center;
@@ -383,6 +396,83 @@ footer{
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
     
+    nav,nav ul{
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
 
+/* goat-container section  */
+.goat-container{
+    flex-direction: column-reverse;
+    gap: 20px;
+    align-content: center;
+    /* margin: auto; */
+}
+ .gamer-pic,.big-goat-image{
+    width: 300px;
+    margin: 50px auto;
+}
+#btn-senondary{
+    margin-left: 20px;
+}
+
+/* .we-are-gamer-container  */
+.we-are-gamer-container{
+    flex-direction: column;
+    justify-content: center;
 
 }
+.gamer-text{
+    text-align: center;
+    /* border: 2px solid red; */
+    width: 350px;
+    text-align: center;
+    
+}
+
+.gamer-text>p{
+    width: auto;
+}
+/* Online Games Funny Videos   */
+.parent-games-pic{
+    flex-direction: column;
+    margin: 20px auto ;
+    margin-left: 5px;
+    align-items: center;
+    
+}
+/* play  */
+.instantly-container{
+    /* flex-direction: column; */
+    display: none;
+}
+.hors-img{
+    width: 250px;
+}
+.hi6{
+    position: static;
+    width: 200px;
+}
+.instant-text-part{
+    font-size: 20px;
+    text-align: center;
+    width: auto;
+}
+/* .button-section */
+
+/* footer  */
+/* .connectt{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    justify-content: center;
+    font-size: 12px;
+}
+.connect{
+    font-size: 10px;
+} */
+}
+
